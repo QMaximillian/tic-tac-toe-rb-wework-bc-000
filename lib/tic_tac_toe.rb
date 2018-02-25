@@ -11,7 +11,7 @@ def input_to_index(user_input)
 end
 
 def move(board, index)
-  board[index]
+  board[index] = input
 end
 
 def position_taken?(board, index, input)
